@@ -79,6 +79,16 @@ function Register() {
                             required
                         />
                     </center>
+                    <center>
+                        <input 
+                            onChange={(event) => {
+                                setPassword(event.target.value);
+                            }}
+                            type="password"
+                            placeholder="Confirm Password"
+                            required
+                        />
+                    </center>
                     <h5 className="register_gender">Gender</h5>
                     <div className="register_radiocontainer">
                         <div className="wrapper">
