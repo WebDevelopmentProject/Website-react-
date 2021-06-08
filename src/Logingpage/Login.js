@@ -10,7 +10,7 @@ function Login() {
         event.preventDefault();
         auth.signInWithEmailAndPassword(email,password).then((auth) => 
         {
-            history.push("/")
+            history.push("/Navbar")
         }).catch((e) => {
             if(
                 e.message===

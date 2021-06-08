@@ -26,7 +26,7 @@ function Register() {
                             gender,
                             bio:""
                         }).then((r) =>{
-                            history.push("/login")
+                            history.push("/Navbar")
                         })
                     })
                 }
